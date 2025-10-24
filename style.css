@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 100%;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.main {
+    box-shadow: 0px 2px 4px 0px #0000000E;
+    background-color: #2B3844;
+}
+
+.input-text {
+    border-radius: 10px;
+    border: 1px solid white;
+    outline: none;
+    color: #fff;
+    width: 480px;
+    padding: 18px 10px;
+    box-shadow: 0px 2px 9px 0px #0000000E;
+    background: #2B3844;
+
+}
+
+
+
+.header {
+    color: #fff;
+    box-shadow: 0px 2px 4px 0px #0000000E;
+    background-color: #2B3844;
+}
+
+.header-wrapper {
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-title {
+    font-family: Nunito Sans;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0px;
+
+}
+
+.header-text {
+    font-family: Nunito Sans;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+
+}
+@media (max-width: 1373px ){
+    .box2{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
+
+@media screen and (max-width: 834px) {
+
+    .header-title {
+        font-family: Nunito Sans;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 0px;
+
+    }
+
+    .header-text {
+        font-family: Nunito Sans;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 0px;
+
+    }
+
+    .input-text {
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (max-width: 375px) {
+
+    .header-title {
+        font-family: Nunito Sans;
+        font-weight: 800;
+        font-size: 14px;
+        line-height: 100%;
+        letter-spacing: 0px;
+
+    }
+
+    .header-text {
+        font-family: Nunito Sans;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 100%;
+        letter-spacing: 0px;
+    
+    }
+}
+.box img{
+    width: 267px;
+    height: 160px;
+}
+.box2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px;
+}
+.box{
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+}
